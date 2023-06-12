@@ -1,0 +1,15 @@
+version: '3'
+services:
+  notebook:
+    container_name: Jupyter_Tensorflow
+    image: jupyter/tensorflow-notebook
+    #build: .
+    #  context: ./scienceData
+    ports: 
+      - "8888:8888"
+      - "5000:5000"
+      - "4041:4041"
+      
+    volumes:
+      - .:/home/jovyan/work 
+    hostname: localhost
