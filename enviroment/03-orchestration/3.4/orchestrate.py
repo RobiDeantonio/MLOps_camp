@@ -136,6 +136,7 @@ if __name__ == "__main__":
 
 ## In terminal execute this command
 ## zoompool was create in prefect service in other container
-## prefect deploy 3.4/orchestrate.py:main_flow -n taxi1 -p zoompool
+## prefect deploy enviroment/03-orchestration/3.4/orchestrate.py:main_flow -n taxi1 -p zoomPool
 
-## prefect worker start -p zoompool
+
+## prefect worker start -p zoomPool

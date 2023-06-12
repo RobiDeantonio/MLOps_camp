@@ -1,5 +1,5 @@
 #Big files
-*.parquet
+#*.parquet
 *.csv
 *.json
 
@@ -13,7 +13,8 @@ artifacts/
 **ssh*
 
 # otrher files
-data/
+artifacts/
+db/
 .ipynb_checkpoints
 .vscode/
 ./DS_Store

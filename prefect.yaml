@@ -16,5 +16,4 @@ pull:
     #repository: https://github.com/discdiver/prefect-mlops-zoomcamp.git
     repository: https://github.com/RobiDeantonio/MLOps_camp.git
     branch: main
-    folder: project-name
     access_token: null
